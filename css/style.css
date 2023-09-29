@@ -1,0 +1,143 @@
+body {
+  background-color: #E6E6E6;
+}
+/* Navigation CSS */
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-nav {
+  display: flex;
+  list-style: none;
+}
+
+.nav-item {
+  padding: 5px 10px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
+
+.inline-block {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.inline-block {
+  display: inline-block;
+  text-align: center;
+}
+
+.logo {
+  width: 23%;
+  padding: 1%;
+}
+
+nav {
+  width: 73%;
+  padding: 1px;
+  margin-left: auto;
+}
+
+ul {
+  width: 45%;
+  margin-left: auto;
+}
+
+.logo img {
+  text-align: center;
+}
+
+/* Hero Image CSS */
+.heroImg {
+  height: 500px;
+  padding: 100px;
+}
+
+.content {
+  width: 500px;
+  margin: 0 auto;
+}
+
+/* My UX Skills Section */
+/*  My UX Skills section coded using CSS flex */
+.mySkills {
+  margin: 50px auto;
+  max-width: 800px;
+}
+
+.mySkills h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.flexContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.flex-item {
+  width: 33%;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  background-color: #B1B1B1;
+}
+
+.flex-item img {
+  display: block;
+  margin: 0 auto;
+}
+
+.flex-item h3 {
+  text-align: center;
+  margin: 15px 0;
+}
+
+.flex-item p {
+  text-align: center;
+}
+
+
+/* Simple Grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 180px;
+  margin: 20px auto;
+  max-width: 800px;
+  justify-content: center;
+  }
+
+.grid-item {
+  background-color: #B1B1B1;
+  padding: 110px;
+  text-align: center;
+  border-radius: 18px;
+  height: 100px; 
+  width: 95px; 
+  font-size: 32px;
+  }
+
+/* Footer CSS */
+footer {
+  background-color: #393939;
+  padding: 10px;
+}
+
+footer ul {
+  display: inline-block;
+  vertical-align: top;
+  padding: 50;
+}
+
+footer li {
+  padding: 5px;
+  color: white;
+}
+
